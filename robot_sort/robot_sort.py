@@ -124,8 +124,8 @@ class SortingRobot:
         # QUICKSORT
         self.set_light_on()
 
+        # basically is while true
         while self.light_is_on():
-            # turn light off
             self.set_light_off()
             # pick up first item, putting down "none"
             self.swap_item()
